@@ -116,7 +116,7 @@ Add a friend to a user's friend list
 Remove a friend from a user's friend list
 
 ## Walkthrough Video
-A walkthrough video demonstrating the functionality of the API can be found here: [Walkthrough Video](https://youtube.com/)
+A walkthrough video demonstrating the functionality of the API can be found here: [Walkthrough Video]([https://youtube.com/](https://youtu.be/1K6LMTKK-2Q)
 
 ## Technologies Used
 
