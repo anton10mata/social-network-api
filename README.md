@@ -64,12 +64,9 @@ Delete a user by ID
 }
 
 ### Thought Routes
-#### Method
-#### Endpoint
-#### Description
-#### GET
+#### Get all thoughts
+GET
 /api/thoughts
-Get all thoughts
 #### GET
 /api/thoughts/:thoughtId
 Get a single thought by ID
