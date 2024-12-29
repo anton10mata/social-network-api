@@ -8,210 +8,130 @@
 
 # Table of Contents
 
+- [Installation](#installation)
+- [Usage](#usage)
+- [Routes](#routes)
+ - [User Routes](#user-routes)
+ - [Thought Routes](#thought-routes)
+ - [Friend Routes](#friend-routes)
+- [Walkthrough Video](#walk-through)
+- [Technologies Used](#technologies-used)
+- [License](#License)
+
 ## Installation
 
-## Usage
-
-## Routes
-
-## User Routes
-
-## Thought Routes
-
-## Friend Routes
-
-## Walkthrough Video
-
-## Technologies Used
-
-## License
-
-# Installation
-
-Clone the repository:
-
+1. Clone the repository:
 git clone <repository-url>
-
-## Navigate to the project directory:
-
+2. Navigate to the project directory:
 cd social-network-api
-
-## Install dependencies:
-
+3. Install dependencies:
 npm install
-
-## Start MongoDB:
-
+4. Start MongoDB:
 If you are running MongoDB locally, ensure that it is installed and running.
-
 If using MongoDB Atlas, update the connection string in server.js.
-
-## Start the server:
-
+5. Start the server:
 npm run dev
 
-# Usage
-
+## Usage
 Use a tool like Insomnia or Postman to test the API endpoints.
-
 The server will run on http://localhost:3001 by default.
 
-Routes
+## Routes
+###User Routes
+#### Method
+#### Endpoint
+#### Description
 
-User Routes
-
-Method
-
-Endpoint
-
-Description
-
-GET
-
-/api/users
-
+#### GET
+- /api/users
 Get all users
-
-GET
-
+#### GET
 /api/users/:userId
-
 Get a single user by ID
-
-POST
-
+#### POST
 /api/users
-
 Create a new user
-
-PUT
-
+#### PUT
 /api/users/:userId
-
 Update a user by ID
-
-DELETE
-
+#### DELETE
 /api/users/:userId
-
 Delete a user by ID
-
-Sample User Data
-
+#### Sample User Data
 {
   "username": "testuser",
   "email": "testuser@example.com"
 }
 
-Thought Routes
-
-Method
-
-Endpoint
-
-Description
-
-GET
-
+### Thought Routes
+#### Method
+#### Endpoint
+#### Description
+#### GET
 /api/thoughts
-
 Get all thoughts
-
-GET
-
+#### GET
 /api/thoughts/:thoughtId
-
 Get a single thought by ID
-
-POST
-
+#### POST
 /api/thoughts
-
 Create a new thought
-
-PUT
-
+#### PUT
 /api/thoughts/:thoughtId
-
 Update a thought by ID
-
-DELETE
-
+#### DELETE
 /api/thoughts/:thoughtId
-
 Delete a thought by ID
-
-Sample Thought Data
-
+#### Sample Thought Data
 {
-  "thoughtText": "This is a test thought!",
+"thoughtText": "This is a test thought!",
   "username": "testuser",
   "userId": "<userId>"
 }
+### Reaction Routes
+#### Method
+#### Endpoint
+#### Description
 
-Reaction Routes
-
-Method
-
-Endpoint
-
-Description
-
-POST
-
+#### POST
 /api/thoughts/:thoughtId/reactions
-
 Add a reaction to a thought
-
-DELETE
-
+#### DELETE
 /api/thoughts/:thoughtId/reactions/:reactionId
-
 Remove a reaction from a thought
-
-Sample Reaction Data
-
+#### Sample Reaction Data
 {
   "reactionBody": "This is a reaction!",
   "username": "testuser"
 }
 
-Friend Routes
+### Friend Routes
 
-Method
+#### Method
+#### Endpoint
+#### Description
 
-Endpoint
-
-Description
-
-POST
-
+#### POST
 /api/users/:userId/friends/:friendId
-
 Add a friend to a user's friend list
-
-DELETE
-
+#### DELETE
 /api/users/:userId/friends/:friendId
-
 Remove a friend from a user's friend list
 
-Walkthrough Video
+## Walkthrough Video
+A walkthrough video demonstrating the functionality of the API can be found here: [Walkthrough Video](https://youtube.com/)
 
-A walkthrough video demonstrating the functionality of the API can be found here.
+## Technologies Used
 
-Technologies Used
+### Node.js
 
-Node.js
+### Express.js
 
-Express.js
+### MongoDB
 
-MongoDB
+### Mongoose
 
-Mongoose
+### Insomnia
 
-Insomnia
-
-License
-
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
