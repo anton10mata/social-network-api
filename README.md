@@ -4,7 +4,7 @@
 
 ## The Social Network API is a backend application built for a social media startup. It enables users to share their thoughts, react to friends' thoughts, and manage a list of friends. The API is built using Node.js, Express.js, MongoDB, and Mongoose.
 
-# This project demonstrates the implementation of CRUD operations for users, thoughts, and reactions, as well as relationships between users (friends).
+## This project demonstrates the implementation of CRUD operations for users, thoughts, and reactions, as well as relationships between users (friends).
 
 # Table of Contents
 
@@ -37,7 +37,7 @@ Use a tool like Insomnia or Postman to test the API endpoints.
 The server will run on http://localhost:3001 by default.
 
 ## Routes
-###User Routes
+### User Routes
 #### Method
 #### Endpoint
 #### Description
