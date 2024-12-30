@@ -64,9 +64,9 @@ Get all users
 }
 
 ### Thought Routes
-#### Get all thoughts
-GET
+#### GET
 /api/thoughts
+- Get all thoughts
 #### GET
 /api/thoughts/:thoughtId
 - Get a single thought by ID
